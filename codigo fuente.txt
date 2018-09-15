@@ -1,0 +1,56 @@
+﻿
+
+RESALTAR TEXTO EN NEGRITAS Y CURSIVA
+
+<h2>Aprende <b>html5</b>, <b>css3</b> y <strong>Javascript</strong></h2>
+
+<h2>Aprende <i>html5</i>, <i>css3</i> y <strong>Javascript</strong></h2>
+
+<h2>Aprende <i><b>html5</b></i>, <i><b>css3</b></i> y <strong>Javascript</strong></h2>
+
+ESTRUCTURAR CONTENIDO
+
+Para texto es parrafo, pero para estructura es div
+
+<div class="contenedor">
+<div class="logo">
+          <img src="img/logo.png" alt="logo empresa">
+</div>
+<div class=”navegacion”>
+menu aquí
+</div>
+</div>
+
+header dentro de un div es una etiqueta que nos ayuda a nosotros a ser nuestro codigo de manera semantica (entendible para nosotros)
+
+<div class="contenedor">
+<header>
+<div class="logo">
+          <img src="img/logo.png" alt="logo empresa">
+</div>
+<nav class=”navegacion”>
+menu aquí
+</nav>
+</header>
+</div>
+
+se le puede poner el nombre que sea de su gusto pero no estaria alineado en los estandares de html
+
+section sirve para englobar o clasificar contenidos importantes
+
+<main class="Contenido Principal" role="main">
+        <section>
+          <h2>Nuestros Cursos</h2>
+          <div>
+            <h3>HTML5</h3>
+            <img src="img/html5.png" height="200">
+</div>
+</section>
+</main>
+
+article – entradas que hablan por si solas
+
+<article>
+<h1>prende a programar</h1>
+</article>
+
